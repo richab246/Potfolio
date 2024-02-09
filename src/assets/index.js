@@ -29,6 +29,9 @@ import techquench from "./company/techquench.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import education from "./education.png"
+import kota from "./kota.png";
+import jodhpur from "./jodhpur.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  education,
+  kota,
+  jodhpur
 };

@@ -30,6 +30,17 @@ const ServiceCard = ({ index, title, icon }) => {
 }
 
 const About = () => {
+
+  const file = () => {
+    const aTag = document.createElement('a');
+    aTag.href = "http://localhost:5173/resume.richa.pdf";
+    aTag.setAttribute('download', 'resume richa.pdf');
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+    // alert("Hello")
+  }
+
   return (
     <>
      <motion.div variants={textVariant()}>
@@ -42,6 +53,13 @@ const About = () => {
         collaborate closely with clients to create efficient, scalable, and user-friendly 
         solutions that solve real-world problems. Let's work together to bring your ideas to life!
      </motion.p>
+     <motion.button 
+       type='button' 
+       variants={fadeIn("", "", 0.1, 1)} 
+       className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mt-9 border border-zinc-100"
+       onClick={file}>
+           Download CV
+     </motion.button>
      <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service}/>
