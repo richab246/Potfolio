@@ -33,7 +33,7 @@ const About = () => {
 
   const file = () => {
     const aTag = document.createElement('a');
-    aTag.href = "http://localhost:5173/resume.richa.pdf";
+    aTag.href = "https://main--calm-druid-6514f7.netlify.app/resume.richa.pdf";
     aTag.setAttribute('download', 'resume richa.pdf');
     document.body.appendChild(aTag);
     aTag.click();
