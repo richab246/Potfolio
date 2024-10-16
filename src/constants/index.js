@@ -210,9 +210,9 @@ import {
       source_code_link: "https://github.com/richab246/Chatbot",
     },
     {
-      name: "Hrms",
+      name: "AI-Marketplace",
       description:
-        "Developing a dynamic Next.js website for employee management, ongoing project updates for efficient management – a robust solution currently under construction.",
+        "Developing a dynamic Next.js website for Ai-Marketplace, ongoing project updates for efficient management – a robust solution currently under construction.",
       tags: [
         {
           name: "react",
@@ -223,12 +223,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "clerk",
+          name: "postcss",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/diablx/hrms-fe",
+      source_code_link: "https://github.com/richab246/Marketplace",
     },
     {
       name: "Bus Recommendation",
